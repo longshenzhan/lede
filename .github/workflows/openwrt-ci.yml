@@ -141,19 +141,19 @@ jobs:
           # 常用LuCI插件选择:
           # cat >> .config <<EOF
           # CONFIG_PACKAGE_luci-app-adbyby-plus=n
-          # CONFIG_PACKAGE_luci-app-aria2=y
-          # CONFIG_PACKAGE_luci-app-baidupcs-web=y
+          # CONFIG_PACKAGE_luci-app-aria2=n
+          # CONFIG_PACKAGE_luci-app-baidupcs-web=n
           # CONFIG_PACKAGE_luci-app-docker=y
           # CONFIG_PACKAGE_luci-app-frpc=y
-          # CONFIG_PACKAGE_luci-app-kodexplorer=y
-          # CONFIG_PACKAGE_luci-app-minidlna=y
+          # CONFIG_PACKAGE_luci-app-kodexplorer=n
+          # CONFIG_PACKAGE_luci-app-minidlna=n
           # CONFIG_PACKAGE_luci-app-openvpn=n
           # CONFIG_PACKAGE_luci-app-openvpn-server=n
-          # CONFIG_PACKAGE_luci-app-qbittorrent=y
-          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
-          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
-          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
-          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Socks=y
+          # CONFIG_PACKAGE_luci-app-qbittorrent=n
+          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=n
+          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=n
+          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=n
+          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Socks=n
           # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray=n
           # CONFIG_PACKAGE_luci-app-ttyd=y
           # CONFIG_PACKAGE_luci-app-v2ray-server=n
@@ -165,8 +165,8 @@ jobs:
 
           # LuCI主题:
           # cat >> .config <<EOF
-          # CONFIG_PACKAGE_luci-theme-argon=y
-          # CONFIG_PACKAGE_luci-theme-netgear=y
+          # CONFIG_PACKAGE_luci-theme-argon=n
+          # CONFIG_PACKAGE_luci-theme-netgear=n
           # EOF
 
           # 常用软件包:
